@@ -1,3 +1,5 @@
+// Unit test the main package.
+
 package main
 
 import "testing"
