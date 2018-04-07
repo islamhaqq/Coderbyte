@@ -26,5 +26,5 @@ func LongestWord(sen string) string{
 }
 
 func main() {
-  fmt.Println(LongestWord("fun&!! time"))
+  fmt.Println(LongestWord("I'll be back!"))
 }
