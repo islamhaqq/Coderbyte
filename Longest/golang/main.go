@@ -1,7 +1,10 @@
 package main
-import "fmt"
-import "strings"
-import "regexp"
+
+import (
+  "fmt"
+  "strings"
+  "regexp"
+)
 
 // Sanitize the string of punctuation.
 func sanitizeString(theString string) string {
