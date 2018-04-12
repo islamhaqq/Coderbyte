@@ -1,3 +1,3 @@
-const firstReverse = stringToReverse => stringToReverse.split('').reverse().join(''); 
+const FirstReverse = str => str.split('').reverse().join(''); 
 
-module.exports = firstReverse;
+module.exports = FirstReverse;
