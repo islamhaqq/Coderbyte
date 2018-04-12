@@ -1,6 +1,6 @@
 function LongestWord(sen) {
   // Sanitize string of punctuation and other non-alphabetic characters.
-  const sanitizedSentence = sen.replace(/[^\w\s]+/g, '');
+  const sanitizedSentence = sen.trim().replace(/[^\w\s]+/g, '');
 
   // Determine the longest word.
   const words = sanitizedSentence.split(' ');
